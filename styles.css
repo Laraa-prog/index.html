@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Arial, sans-serif;
+    color: orange;
+    background-color: aliceblue;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    padding: 20px;
+    color: rgb(189, 129, 72);
+    text-align: center;
+    font-size: 24px;
+}
+
+.orange-juice,
+.blend,
+.pulp{
+    padding: 40px;
+    text-align: center;
+}
+
+.card,
+.juice{
+    padding : 20px;
+    border-radius: 10px;
+}
+
+.parallax{
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.step-one{
+
+    background-image: url("images/Step1.jpeg");
+}
+
+.step-two{
+    background-image: url("images/Step2.jpg");
+}
+
+.step-three{
+    background-image: url("images/Step3.jpg");
+}
+
+.step-four{
+    background-image: url("images/Step4.jpg");
+}
+
